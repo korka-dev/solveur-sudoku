@@ -12,9 +12,12 @@
 
 ```bash
 # Cloner le dépôt
-https://github.com/korka-dev/solveur-sudoku.git
+git clone https://github.com/korka-dev/solveur-sudoku.git
 cd solveur-sudoku
 
-# Compiler et exécuter (exemple en Java)
-javac Main.java
+# Compiler tous les fichiers Java
+javac *.java
+
+# Exécuter le programme
 java Main
+
